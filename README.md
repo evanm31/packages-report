@@ -19,7 +19,7 @@ Workshop challenge checklist
 Overview
 --------
 
-The goal of packages-report is to check out out sweet package downloads.
+The goal of packages-report is to check out our sweet package downloads.
 
 I have 317 add-on packages installed.
 
