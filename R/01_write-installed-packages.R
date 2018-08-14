@@ -16,7 +16,7 @@ dat <- dat %>% select(Package, LibPath, Version, Priority, Built)
 ## YES overwrite the file that is there now
 ## that came from me (Jenny)
 ## it an example of what yours should look like
-write.csv(dat, "./data/installed-packages.csv")
+write.csv(dat, "data/installed-packages.csv")
 
 ## when this script works, stage & commit it and the csv file
 ## PUSH!
