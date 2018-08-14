@@ -5,7 +5,8 @@ apt_freqtable <- read.csv("data/add-on-packages-freqtable.csv")
 
 ## if you use ggplot2, code like this will work:
 p <- ggplot(apt_freqtable, aes(x = Built, y = n)) +
-  geom_bar(stat = "identity")
+  geom_bar(stat = "identity") +
+  labs(x = "Built", y = "Count", title = "Package Distribution by Build")
 
 ## write this barchart to figs/built-barchart.png
 ## if you use ggplot2, ggsave() will help
